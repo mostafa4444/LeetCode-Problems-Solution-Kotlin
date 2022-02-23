@@ -37,4 +37,9 @@ fun main() {
 //    println(Atoi.myAtoi("42"))
 //    println(Atoi.myAtoi("   -42"))
 //    print(Atoi.myAtoi("4193 with words"))
+
+//    println(PalindromeNumber.isPalindrome(121))
+//    println(PalindromeNumber.isPalindrome(-121))
+//    println(PalindromeNumber.isPalindrome(10))
+
 }
