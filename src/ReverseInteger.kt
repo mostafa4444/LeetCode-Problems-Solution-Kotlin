@@ -1,19 +1,16 @@
 object ReverseInteger {
     fun reverse(x: Int): Int {
-        val myIntString = x.toString()
+        var entry: Int = x
+        var last = 0
         var result = 0
-        if (x > Int.MAX_VALUE  || x < Int.MIN_VALUE){
-            return 0
+        while(entry != 0){
+            val state = entry % 10
+            entry /= 10
+            result = result * 10 + state
+            if ((result - state) / 10 != last)
+                return 0
+            last = result
         }
-        result = if (myIntString.contains("-")){
-            myIntString.replace("-" , "").reversed().toInt() * -1
-        }else{
-            x.toString().reversed().toInt()
-        }
-        return if (result < Int.MAX_VALUE  && result > Int.MIN_VALUE){
-            result
-        }else{
-            0
-        }
+        return result
     }
 }

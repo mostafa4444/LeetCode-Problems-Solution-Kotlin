@@ -1,9 +1,9 @@
 
 fun main() {
 
-    println(ValidMountainArray.validMountainArray(intArrayOf(2,1)))
-    println(ValidMountainArray.validMountainArray(intArrayOf(3,5,5)))
-    println(ValidMountainArray.validMountainArray(intArrayOf(0,3,2,1)))
+//    println(ValidMountainArray.validMountainArray(intArrayOf(2,1)))
+//    println(ValidMountainArray.validMountainArray(intArrayOf(3,5,5)))
+//    println(ValidMountainArray.validMountainArray(intArrayOf(0,3,2,1)))
 //    println(DetectCapital.detectCapitalUse("USA"))
 //    println(DetectCapital.detectCapitalUse("Google"))
 //    println(DetectCapital.detectCapitalUse("FlaG"))
